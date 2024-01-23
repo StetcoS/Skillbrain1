@@ -1,11 +1,11 @@
 package org.exemple;
 
+import javax.swing.*;
+
 public class MainOOP {
     public static void main(String[] args) {
-        Lasagna obiect = new Lasagna();
-        obiect.print();
-        obiect.name = "Lasagna nea";
-                Lasagna o = new Lasagna();
-
+        Lasagna lasagna1 = new Lasagna();
+        System.out.println(lasagna1.totalTimeMinutes());
+        System.out.println(lasagna1.totalTimeMinutes(JLayer:3,minutes:20));
     }
 }
